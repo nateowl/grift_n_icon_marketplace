@@ -236,11 +236,22 @@ button:active  {
    margin: 30px;
 }
 
+.icon:hover img {
+   transition: all .2s;
+   transform: translateY(-5px);
+}
+
 .icon h2 {
    font-size: 24px;
    color: #333333;
    font-weight: Bold;
    margin: 20px;
+}
+
+.icon:hover h2 {
+   color: #1A7EC9;
+   transition: all .2s;
+   transform: translateY(-5px);
 }
 
 .icon p {
@@ -301,7 +312,7 @@ footer {
 /* EXTRA CLASSES */
 
 .selected {
-   background: rgb(170, 192, 221);
-   border: 2px solid #105182;
+   background: rgb(219, 231, 250);
+   border: 2px dashed #105182;
    transition: all .2s;
 }
