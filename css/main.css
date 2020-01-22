@@ -210,7 +210,7 @@ button:active  {
    display: flex;
    flex-direction: row;
    justify-content: center;
-   align-items: center;
+   align-items: stretch;
    text-align: center;
    flex-wrap: wrap;
 
@@ -222,12 +222,13 @@ button:active  {
    justify-content: space-between;
    align-items: center;
    text-align: center;
-   background: #FFFFFF 0% 0% no-repeat padding-box;
+   background: #FFFFFF;
    border: 2px solid #1A7EC9;
    border-radius: 9px;
    width: 20%;
    margin: 2%;
    min-width: 250px;
+   transition: all .2s;
 }
 
 .icon img {
@@ -277,6 +278,8 @@ button:active  {
    min-width: 250px
 }
 
+/* Footer */
+
 footer {
    display: flex;
    flex-direction: column;
@@ -293,4 +296,12 @@ footer {
 
 .footernav a:last-child {
    border-right: none;
+}
+
+/* EXTRA CLASSES */
+
+.selected {
+   background: rgb(170, 192, 221);
+   border: 2px solid #105182;
+   transition: all .2s;
 }
