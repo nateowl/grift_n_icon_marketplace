@@ -100,7 +100,7 @@ button:active  {
    align-items: center;
 }
 
-.headernav a {
+.navlist {
    margin: 10px;
    height: 25px;
    text-align: left;
@@ -258,6 +258,7 @@ button:active  {
    align-items: center;
    text-align: center;
    height: 140px;
+   margin-bottom: 30px;
 }
 
 .controls p {
@@ -274,4 +275,22 @@ button:active  {
    align-items: center;
    width: 20%;
    min-width: 250px
+}
+
+footer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: transparent linear-gradient(90deg, #000000 0%, #464646 100%) 0% 0% no-repeat padding-box;
+   height: 140px;
+}
+
+.logoFooter img {
+   width: 260px;
+   margin-bottom: 20px;
+}
+
+.footernav a:last-child {
+   border-right: none;
 }
